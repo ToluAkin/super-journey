@@ -155,6 +155,68 @@ form button {
     opacity: 0.7;
 }
 
+.blue {
+    height: 25px;
+    width: 25px;
+    background-color: #8BBAC5;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.brown {
+    height: 25px;
+    width: 25px;
+    background-color: #7A544A;;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.deep {
+    height: 25px;
+    width: 25px;
+    background-color: #1C3048;
+    border-radius: 50%;
+    display: inline-block;
+}
+.black {
+    height: 25px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+button.cart {
+    float: left;
+    width: 80%;
+    height: 45px;
+    padding: 10px;
+    background:#F3D347;
+    color: white;
+    font-size: 13.5px;
+    border: 1px solid;
+    border-left: none;     
+    cursor: pointer;
+}
+
+.fa-heart {
+    width: 23px;
+    height: 15px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.next {
+    color: rgb(49, 48, 48);
+}
 /* Card */
 
 .card-header{
