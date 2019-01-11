@@ -14,12 +14,12 @@ body {
     box-shadow: 7px 7px whitesmoke;
 }
 
-.upper-nav>.container {
+.upper-nav .container {
     margin: 0 auto;
     max-width: 1100px;
 }
 
-.upper-nav-right-menu>ul>li {
+.upper-nav-right-menu ul li {
 display: inline;
 text-align: right;
 font-style: normal;
@@ -29,7 +29,7 @@ font-size: 15px;
 letter-spacing: 0.04em;
 }
 
-.upper-nav-right-menu>ul>li>a {
+.upper-nav-right-menu ul li a {
     color: black;
 }
 /* Logo Wrapper */
@@ -38,6 +38,7 @@ letter-spacing: 0.04em;
     width: 161px;
     height: 70px;
 }
+
 /* Search Button */
 
 form input[type=text] {
@@ -79,6 +80,9 @@ form button {
     height: 18.83px;
 }
 
+/* Categories */
+
+
 /* Carousel */
 .carousel-indicators .active {
     background-color:yellow;
@@ -93,7 +97,7 @@ form button {
     text-align: left;
     align-content: center;
 }
-.carousel-caption>h1 {
+.carousel-caption h1 {
     line-height: 30px;
     font-size: 42px;
     letter-spacing: 0.0214286em;
@@ -118,6 +122,7 @@ form button {
     transform: scale(1.1);
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
+
 .modal-content {
     position: absolute;
     top: 50%;
@@ -128,8 +133,9 @@ form button {
     width: 1200px;
     height: 100%;
 }
+
 .close-button {
-    float: right;
+    float: left;
     width: 1.5rem;
     line-height: 1.5rem;
     text-align: center;
@@ -146,14 +152,17 @@ form button {
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
-#myImg {
+
+a#pop {
     cursor: pointer;
     transition: 0.3s;
 }
   
-#myImg:hover {
+a#pop:hover {
     opacity: 0.7;
 }
+
+/* Colour shade */
 
 .blue {
     height: 25px;
@@ -204,19 +213,7 @@ button.cart {
     height: 15px;
 }
 
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-}
 
-a:hover {
-    background-color: #ddd;
-    color: black;
-}
-.next {
-    color: rgb(49, 48, 48);
-}
 /* Card */
 
 .card-header{
@@ -226,7 +223,7 @@ a:hover {
 .card{
     box-shadow: 0 2px 5px rgba(0,0,0,0.19), 0 1px 7px rgba(0,0,0,0.23);
 }
-.card>.list-group>.list-group-item {
+.card .list-group .list-group-item {
     height: 60px;
 }
 
@@ -241,7 +238,7 @@ a:hover {
 
 /* footer */
 
-footer>.upper-footer {
+footer .upper-footer {
     background-color: #373A3C;
     width: 100%; 
     height: 250px;
@@ -254,7 +251,7 @@ footer>.upper-footer {
     box-shadow: 0px 0px 2px white;
     padding: 0.5em 0.6em;
 } 
-footer>.lower-footer {
+footer .lower-footer {
     background-color: #2B2F31;
     width: 100%;
     height: 60px;
