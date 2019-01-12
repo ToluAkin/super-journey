@@ -135,13 +135,13 @@ form button {
 }
 
 .close-button {
-    float: left;
+    float: right;
     width: 1.5rem;
     line-height: 1.5rem;
     text-align: center;
     cursor: pointer;
     border-radius: 0.25rem;
-    background-color: lightgray;
+    background-color: transparent;
 }
 .close-button:hover {
     background-color: darkgray;
@@ -213,6 +213,22 @@ button.cart {
     height: 15px;
 }
 
+/* Size square */
+
+.number {
+    height: 35px;
+    width: 32px;
+    background-color: rgb(243, 243, 243);
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgb(243, 243, 243);
+    line-height: 25px;
+
+}
+
+.number:hover {
+    opacity: 0.7;
+}
 
 /* Card */
 

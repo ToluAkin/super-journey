@@ -147,18 +147,20 @@
                                                     <li class="list-inline-item"><i class="fas fa-star"></i></li>
                                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
                                                 </ul>
-                                                <br>
                                                 <p>&#8358;15,000.00</p>
-                                                <br>
                                                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
                                                     of classical Latin literature from 45 BC. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
                                                     of classical Latin literature from 45 BC.
                                                     <small id="text" class="form-text text-muted">Read More...</small>
                                                 </p>
-                                                
                                                 <h6>SIZE</h6>
-                                                <br>
-
+                                                <span class="number">38</span>
+                                                <span class="number">39</span>
+                                                <span class="number">40</span>
+                                                <span class="number">41</span>
+                                                <span class="number">42</span>
+                                                <span class="number">43</span>
+                                                <br><br>
                                                 <h6>COLOUR</h6>
                                                 <span class="blue"></span>
                                                 <span class="pink"></span>&nbsp;&nbsp;
@@ -166,7 +168,13 @@
                                                 <span class="deep"></span>&nbsp;&nbsp;&nbsp;
                                                 <span class="black"></span>
                                                 <h6>QUANTITY</h6>
-
+                                                <select>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select><br><br>
                                                 <button class="cart">ADD TO CART</button>
                                             </div>
                                         </div>
