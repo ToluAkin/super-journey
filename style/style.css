@@ -82,6 +82,10 @@ form button {
 
 /* Categories */
 
+.list-group-item a {
+    color: black;
+    text-decoration: none;
+}
 
 /* Carousel */
 .carousel-indicators .active {

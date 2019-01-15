@@ -127,7 +127,6 @@
                     <div class="col-md-2">
                         <br><br>
                         <a id="pop" href="#"><img src="images/buy.jpg" alt="shoe" height="234" width="200"></a>
-                        <!-- Please note : The modal is only attached to the first image.-->
                         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
@@ -135,7 +134,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-5">
-                                                <img src="images/buy.jpg" height="520px" width="450px">
+                                                <img src="images/buy.jpg" height="536px" width="450px">
                                             </div>
                                             <div class="col-md-7">
                                                 <h4>Great Sneakers</h4>
@@ -174,7 +173,7 @@
                                                     <option value="3">3</option>
                                                     <option value="4">4</option>
                                                     <option value="5">5</option>
-                                                </select><br><br>
+                                                </select><br><br><br>
                                                 <button class="cart">ADD TO CART</button>
                                             </div>
                                         </div>
